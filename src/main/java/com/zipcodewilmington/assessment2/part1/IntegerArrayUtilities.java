@@ -9,8 +9,12 @@ public class IntegerArrayUtilities {
     }
 
     public Integer[] range(int start, int stop) {
-        Integer[] array = new Integer[start-stop];
-
+        Integer[] array = new Integer[stop - start+1];
+        int counter = 0;
+        for(int i = start; i  <= stop; i++){
+            array[counter] = i;
+            counter++;
+        }
         return array;
     }
 
