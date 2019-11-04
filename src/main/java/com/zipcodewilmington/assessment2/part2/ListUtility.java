@@ -8,46 +8,30 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class ListUtility {
-    List<Integer> list;
-
-    public ListUtility(){
-        this.list = new LinkedList<>();
-    }
-    public Boolean add(Integer i) {
+    public Boolean add(int i) {
         return null;
     }
 
     public Integer size() {
-        return list.size();
+        return null;
     }
 
     public List<Integer> getUnique() {
-        List<Integer> result = new LinkedList<>();
-        for (Integer x : list){
-            if(!result.contains(x)) {
-                result.add(x);
-            }
-        }
-        return result;
+
+        return null;
     }
 
     public String join() {
-        StringBuilder result = new StringBuilder();
-        int counter =1;
-        for (Integer x : list) {
-            if (counter == list.size()) {
-                result.append(String.valueOf(x));}
-                else result.append(String.format("%d, ", x));
-                counter++;
-            }
-        return result.toString();
+
+        return null;
     }
 
     public Integer mostCommon() {
+
         return null;
     }
 
     public Boolean contains(Integer valueToAdd) {
-        return list.contains(valueToAdd);
+        return null;
     }
 }
